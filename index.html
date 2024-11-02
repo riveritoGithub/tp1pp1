@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Juego del Ahorcado</h1>
+    <p class="word" id="displayWord">_ _ _ _</p>
+    <p>Introduce una letra:</p>
+    <input type="text" id="letterInput" maxlength="1">
+    <button onclick="guessLetter()">Adivinar</button>
+    <p class="message" id="message"></p>
+    <p>Intentos restantes: <span id="attempts"></span></p>
+    <script src="script.js"></script>
+
+</body>
+</html>
